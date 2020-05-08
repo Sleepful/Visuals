@@ -6,9 +6,11 @@ i.e. install OpenFrameworks then place this repository at openFrameworks/apps/[t
 
 # useful commands 
 
-make: build project
-make run: run project
-make copy_dlls: copies dlls from project (if running with msys2)
+`make`: build project
+
+`make run`: run project
+
+`make copy_dlls`: copies dlls from project (if running with msys2)
 
 # to install OF
 

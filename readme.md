@@ -17,6 +17,7 @@ clone OF repo, then run the install scripts at openFrameworks/scripts and add th
 # to run on windows with msys2 installed 
 
 add to windows path:
-* c:\msys64\mingw32\bin (or mingw64 depending)
-* c:\msys64\usr\bin
+* `c:\msys64\mingw32\bin` (or mingw64 depending)
+* `c:\msys64\usr\bin`
+
 in order for windows to find the dlls without having to use `make copy_dlls`

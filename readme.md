@@ -1,6 +1,6 @@
 # Visuals ~
 
-This repo must be inside OpenFramework's library folder in order to compile the programs
+This repo must be inside [OpenFramework](https://github.com/openframeworks/openFrameworks)'s library folder in order to compile the programs
 
 i.e. install OpenFrameworks then place this repository at openFrameworks/apps/[thisrepo]
 

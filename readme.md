@@ -14,7 +14,7 @@ i.e. install OpenFrameworks then place this repository at openFrameworks/apps/[t
 
 # to install OF
 
-clone OF repo, then run the install scripts at openFrameworks/scripts and add this repo as submodule
+clone OF repo, then run the install scripts at openFrameworks/scripts and add this repo as submodule (or just paste the folder on the /apps subfolder in OF)
 
 # to run on windows with msys2 installed 
 

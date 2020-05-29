@@ -1,4 +1,3 @@
-
 #include "ofApp.h"
 
 //--------------------------------------------------------------
@@ -10,6 +9,7 @@ void ofApp::setup(){
 
     timeScale = 100.0;
     clearAlpha = 0.5;
+    ofEasyCam();
 
 }
 
@@ -20,6 +20,7 @@ void ofApp::update(){
 
 //--------------------------------------------------------------
 void ofApp::draw(){
+    camEasyCam.begin();
 
     // Reverse the contrast of the rectangles and screen over time
     ofColor darkColor(0,0,0,255);  // Opaque black
@@ -46,7 +47,8 @@ void ofApp::draw(){
         ofTranslate(ofGetWidth()/2, ofGetHeight()/2);  // Translate to the center of the screen
         for (int i=0; i<100; i++) {
             // Draw the smallest rectangle first and scale out to bigger ones progressively
-            ofScale(1.1, 1.1);
+            // ofScale(1.1, 1.1);
+            ofTranslate(ofGetWidth()/2, ofGetHeight()/2, 2000);
 
             // Make the rectangles spiral
             float time = ofGetElapsedTimef();

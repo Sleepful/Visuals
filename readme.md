@@ -8,7 +8,7 @@ i.e. install OpenFrameworks then place this repository at openFrameworks/apps/[t
 
 Right now this is a work in progress, my first animation is not ready yet :)
 
-![FirstImage](https://raw.githubusercontent.com/Sleepful/Visuals/master/Media/of.PNG)
+![FirstImage](Media/of.PNG)
 
 # useful commands 
 

@@ -4,6 +4,10 @@ This repo must be inside [OpenFramework](https://github.com/openframeworks/openF
 
 i.e. install OpenFrameworks then place this repository at openFrameworks/apps/[thisrepo]
 
+# Status
+
+Right now this is a work in progress, my first animation is not ready yet :)
+
 # useful commands 
 
 `make`: build project
@@ -14,7 +18,7 @@ i.e. install OpenFrameworks then place this repository at openFrameworks/apps/[t
 
 # to install OF
 
-clone OF repo, then run the install scripts at openFrameworks/scripts and add this repo as submodule
+clone OF repo, then run the install scripts at openFrameworks/scripts, and add this repo in the /apps subfolder of OF (as submodule or just copy paste it)
 
 # to run on windows with msys2 installed 
 

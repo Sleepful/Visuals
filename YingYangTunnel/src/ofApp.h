@@ -22,7 +22,12 @@ class ofApp : public ofBaseApp {
     void dragEvent(ofDragInfo dragInfo);
     void gotMessage(ofMessage msg);
 
+// project vars
+    void drawCircle(ofVec2f center, float scale, float orbitAngle);
     float timeScale;
     float clearAlpha;
+    bool spin;
+    float side;
+    float halfSide;
 
 };

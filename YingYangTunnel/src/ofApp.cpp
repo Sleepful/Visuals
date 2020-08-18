@@ -2,24 +2,55 @@
 
 void ofApp::setup(){
     ofBackground(0x0);
-    timeScale = 100.0;
     ofSetCircleResolution(1000);
+    timeScale = 100.0;
+    side = ofGetWidth();
+    halfSide = side/2;
+    spin = false;
 }
 
 void ofApp::update(){
 }
 
+void rotateCircle(){}
+
+// center is the circle's position
+// scale is how close to the screen the circle is
+// orbitAngle is between 0 and 360
+void ofApp::drawCircle(ofVec2f center, float scale, float orbitAngle){
+    float radius = scale * halfSide;
+    ofPath blackHalf;
+    blackHalf.moveTo(300 + 200, 300);
+    blackHalf.arc(center, radius, radius, 0, 180);
+    blackHalf.setFilled(true);
+    blackHalf.setStrokeWidth(1);
+    blackHalf.draw();
+    ofPath whiteHalf;
+    whiteHalf.moveTo(300 + 200, 300);
+    whiteHalf.arc(center, radius, radius, 180, 0);
+    whiteHalf.setFilled(false);
+    whiteHalf.setStrokeWidth(1);
+    whiteHalf.draw();
+}
+
+// center the matrix bloop (rotating camera)
+// float matrixCenter(){}
+void centerCoordinateSystem(){
+    ofTranslate(ofGetWidth() * 0.5, ofGetHeight() * 0.5);
+    ofRotateRad(PI, 1, 0, 0);
+
+}
+
 void ofApp::draw(){
     float side = ofGetWidth();
     ofPushMatrix();
-    ofSetHexColor(0xffffff);
-    ofTranslate(ofGetWidth() * 0.5, ofGetHeight() * 0.5);
-    // ofScale(1,-1,1);
-    ofRotateRad(PI, 1, 0, 0);
-    ofDrawCircle(0,0,side/2);
-    ofSetHexColor(0x000000);
-    ofDrawCircle(50,50,50);
-    ofDrawCircle(0,0,5);
+        centerCoordinateSystem();
+        ofSetHexColor(0xffffff);
+        ofDrawCircle(0,0,side/2);
+        ofSetHexColor(0x000000);
+        ofDrawCircle(50,50,50);
+        ofDrawCircle(0,0,5);
+        drawCircle(ofVec3f(0,0,0),0,0);
     ofPopMatrix();
 }
 

@@ -3,6 +3,8 @@
 #define WINDOW_WIDTH 1024
 #define WINDOW_HEIGHT 768
 #define WINDOW_SIDE 500 // square window
+#define BLACK 0x000000
+#define WHITE 0xffffff
 
 class ofApp : public ofBaseApp {
 
@@ -23,7 +25,8 @@ class ofApp : public ofBaseApp {
     void gotMessage(ofMessage msg);
 
 // project vars
-    void drawCircle(ofVec2f center, float scale, float orbitAngle);
+    void drawCircle(ofVec2f center, float scale, float orbitAngle, int color);
+    void drawHalfCircle(ofVec2f center, float scale, float orbitAngle, int color);
     float timeScale;
     float clearAlpha;
     bool spin;

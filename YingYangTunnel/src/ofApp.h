@@ -25,8 +25,10 @@ class ofApp : public ofBaseApp {
     void gotMessage(ofMessage msg);
 
 // project vars
-    void drawCircle(ofVec2f center, float scale, float orbitAngle, int color);
-    void drawHalfCircle(ofVec2f center, float scale, float orbitAngle, int color);
+    //void drawCircle(ofVec2f center, float scale, float orbitAngle, int color);
+    //void drawHalfCircle(ofVec2f center, float scale, float orbitAngle, int color);
+    //void drawYingYang(float orbitAngle);
+
     float timeScale;
     float clearAlpha;
     bool spin;

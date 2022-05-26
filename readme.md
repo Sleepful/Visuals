@@ -10,7 +10,11 @@ i.e. install OpenFrameworks then place this repository at openFrameworks/apps/[t
 
 This animation can be compiled and visualized by `cd /Visuals/YingYangTunnel && make && make run`
 
-A preview of the result can be downloaded here: https://github.com/Sleepful/Visuals/blob/master/YingYangTunnel/output/Spin.mov
+A high resolution preview of the result can be downloaded here: https://github.com/Sleepful/Visuals/blob/master/YingYangTunnel/output/Spin.mov
+
+A gif preview here (it is quite slow in gif format):
+
+![gif](YingYangTunnel/output/Spin.gif)
 
 ## Experimentation
 

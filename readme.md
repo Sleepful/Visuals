@@ -14,7 +14,7 @@ Source code is in the `YingYangTunnel` directory.
 
 A high resolution preview of the result can be downloaded here: https://github.com/Sleepful/Visuals/blob/master/YingYangTunnel/output/Spin.mov
 
-A gif preview here (it is quite slow in gif format):
+A gif preview can be found here, but in gif it is quite slow, you have to look at it long enough to appreciate it:
 
 ![gif](YingYangTunnel/output/Spin.gif)
 

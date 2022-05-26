@@ -52,6 +52,9 @@ void adjustCoordinates(float radius, float orbitAngle){
     ofTranslate(pos);
 }
 
+// slow
+// float secondsForFullOrbit = 10;
+// fast
 float secondsForFullOrbit = 5;
 float millisForFullOrbit = secondsForFullOrbit*1000;
 

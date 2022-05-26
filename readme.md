@@ -6,7 +6,13 @@ i.e. install OpenFrameworks then place this repository at openFrameworks/apps/[t
 
 # Status
 
-Right now this is a work in progress, my first animation is not ready yet :)
+## YingYangTunnel
+
+This animation can be compiled and visualized by `cd /Visuals/YingYangTunnel && make && make run`
+
+A preview of the result can be downloaded here: https://github.com/Sleepful/Visuals/blob/master/YingYangTunnel/output/Spin.mov
+
+## Experimentation
 
 ![FirstImage](Media/of.PNG)
 
